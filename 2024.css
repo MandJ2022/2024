@@ -1,0 +1,49 @@
+body {
+    /* Full screen width and height */
+    width: 100%;
+    min-height: 100vh;
+    /* Centers the container in the middle of the screen */
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+  
+#container {
+    perspective: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 10px;
+    min-height: 90vh;
+    background-image: url(spaces.png);
+    background-image: url(spaces.png);
+    background-size: cover;
+  /* Center the image */
+    background-position: center;
+}
+  
+#inner {
+    width: 50%;
+    height: 50%;
+    transition: transform 0.3s;
+}
+
+
+#inner img {
+    height: -webkit-fill-available;
+    width: 100%;
+    animation: shadow 2s infinite;
+}
+
+#text {
+    color: white;
+}
+
+section {
+    min-height: 90vh;
+
+}
