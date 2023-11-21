@@ -13,17 +13,16 @@ body {
 }
   
 #container {
-    perspective: 20px;
+    perspective: 15px;
     display: flex;
     position: relative;
     justify-content: space-around;
-    padding: 10px;
+    padding-top: 20px;
     min-height: 90vh;
     background-image: url(spaces.png);
-    background-image: url(spaces.png);
     background-size: cover;
-  /* Center the image */
     background-position: center;
+    width: 100%;
 }
   
 #inner {
