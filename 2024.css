@@ -44,5 +44,9 @@ body {
 
 section {
     min-height: 90vh;
+}
 
+.prices {
+    display: flex;
+    justify-content: space-around;
 }
