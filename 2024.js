@@ -73,7 +73,7 @@ window.onscroll = function() {
   } else {
     textElement1.style.opacity = "0";
   }
-  if (scrollPosition > 800) { // Change this value to the scroll position you want the second text to appear at
+  if (scrollPosition > 1200) { // Change this value to the scroll position you want the second text to appear at
     textElement2.style.opacity = "1";
   } else {
     textElement2.style.opacity = "0";
