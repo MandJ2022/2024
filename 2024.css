@@ -13,12 +13,12 @@ body {
 }
   
 #container {
-    perspective: 15px;
+    perspective: 20px;
     display: flex;
     position: relative;
     justify-content: space-around;
-    padding-top: 20px;
-    min-height: 90vh;
+    padding: 10px;
+    min-height: 100vh;
     background-image: url(spaces.png);
     background-size: cover;
     background-position: center;
@@ -44,9 +44,38 @@ body {
 
 section {
     min-height: 90vh;
+    background-image: url(defi.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding-top: 20px;
 }
 
 .prices {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    flex: 40%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.defi {
+    display: flex;
+    width: 100%;
+}
+
+.defi img {
+    width: 100%;
+}
+
+#animated-text, #animated-text2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s;
+    color: white;
+    font-family: 'KoHo', sans-serif;
 }
