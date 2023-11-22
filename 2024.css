@@ -146,3 +146,59 @@ section {
     z-index: -1;
     left: 1300px;
 }
+
+.defiProjects {
+    min-height: 90vh;
+    background-image: url(defiEco.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.defi1, .defi2, .defi3, .defi4 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px 0px 10px 0px;
+}
+
+.defi1:hover, .defi2:hover, .defi3:hover, .defi4:hover {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.defi1 {
+    background-image: url(xex.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.defi2 {
+    background-image: url(htm.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.defi3 {
+    background-image: url(ash.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.defi4 {
+    background-image: url(jex.png);
+    background-size: cover;
+    background-position: center;
+}
