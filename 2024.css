@@ -81,3 +81,66 @@ section {
     color: white;
     font-family: 'KoHo', sans-serif;
 }
+
+@keyframes fall {
+    0% { top: 500px; }
+    100% { top: 200%; }
+}
+  
+.falling-object {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: fall 3s linear infinite;
+    z-index: -1;
+    left: 400px;
+}
+
+.falling-object1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    animation: fall 2s linear infinite;
+    z-index: -1;
+    left: 200px;
+}
+
+.falling-object2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: fall 4s linear infinite;
+    color: white;
+    z-index: -1;
+    left: 800px;
+}
+
+.falling-object3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    animation: fall 5s linear infinite;
+    color: white;
+    z-index: -1;
+    left: 300px;
+}
+
+.falling-object4 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    animation: fall 4s linear infinite;
+    color: white;
+    z-index: -1;
+    left: 1000px;
+}
+
+.falling-object5 {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    animation: fall 3s linear infinite;
+    color: white;
+    z-index: -1;
+    left: 1300px;
+}
