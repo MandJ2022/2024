@@ -36,6 +36,7 @@ body {
     height: -webkit-fill-available;
     width: 100%;
     animation: shadow 2s infinite;
+    filter: drop-shadow(0px 0px 5px #23f7dd);
 }
 
 #text {
