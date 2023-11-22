@@ -86,7 +86,7 @@ section {
 
 @keyframes fall {
     0% { top: 500px; }
-    100% { top: 190%; }
+    100% { top: 180%; }
 }
   
 .falling-object {
