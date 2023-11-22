@@ -80,6 +80,8 @@ section {
     transition: opacity 2s;
     color: white;
     font-family: 'KoHo', sans-serif;
+    padding-top: 90px;
+    font-size: x-large;
 }
 
 @keyframes fall {
