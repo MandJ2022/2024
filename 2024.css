@@ -43,7 +43,7 @@ body {
 }
 
 section {
-    min-height: 90vh;
+    min-height: 100vh;
     background-image: url(defi.png);
     background-size: cover;
     background-position: center;
