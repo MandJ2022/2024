@@ -63,16 +63,24 @@ var updateTransformStyle = function(x, y) {
   inner.style.oTransform = style;
 };
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-      console.log(entry)
-      if (entry.isIntersecting) {
-          entry.target.classList.add(`show`);
-      } else {
-          entry.target.classList.remove(`show`);
-      }
-  });
-});
-
-const hiddenElements = document.querySelectorAll(`#text`);
-hiddenElements.forEach((el) => observer.observe(el));
+window.onscroll = function() {
+  var textElement1 = document.getElementById('animated-text');
+  var textElement2 = document.getElementById('animated-text2');
+  var textElement3 = document.getElementById('animated-text3');
+  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  if (scrollPosition > 600) { // Change this value to the scroll position you want the first text to appear at
+    textElement1.style.opacity = "1";
+  } else {
+    textElement1.style.opacity = "0";
+  }
+  if (scrollPosition > 800) { // Change this value to the scroll position you want the second text to appear at
+    textElement2.style.opacity = "1";
+  } else {
+    textElement2.style.opacity = "0";
+  }
+  if (scrollPosition > 800) { // Change this value to the scroll position you want the second text to appear at
+    textElement3.style.opacity = "1";
+  } else {
+    textElement3.style.opacity = "0";
+  }
+};
