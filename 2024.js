@@ -66,7 +66,7 @@ var updateTransformStyle = function(x, y) {
 window.onscroll = function() {
   var textElement1 = document.getElementById('animated-text');
   var textElement2 = document.getElementById('animated-text2');
-  var textElement3 = document.getElementById('animated-text3');
+  var animatedImage = document.getElementById('animated-image');
   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   if (scrollPosition > 600) { // Change this value to the scroll position you want the first text to appear at
     textElement1.style.opacity = "1";
@@ -78,9 +78,9 @@ window.onscroll = function() {
   } else {
     textElement2.style.opacity = "0";
   }
-  if (scrollPosition > 800) { // Change this value to the scroll position you want the second text to appear at
-    textElement3.style.opacity = "1";
+  if (scrollPosition > 1400) { // Change this value to the scroll position you want the second text to appear at
+    animatedImage.style.opacity = "1";
   } else {
-    textElement3.style.opacity = "0";
+    animatedImage.style.opacity = "0";
   }
 };
